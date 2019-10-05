@@ -1,6 +1,7 @@
-//You only need one function in your object - fly()
-let Bird = {
-    fly: function(){
-        return true;
-    }
+function secondword(){
+
+    let sentence = "The quick brown fox jumps over the lazy dog";
+    let word = sentence.split(' ')[1];
+
+    console.log(word);
 }

@@ -1,3 +1,6 @@
-function greeting(message){
-  return "The message is: " + message;
+function message(){
+    //Change this line
+    let msg = "Hello"
+    msg = "Goodbye"
+    console.log(msg)
 }

@@ -1,22 +1,11 @@
-function findTheObject() {
-  let investments = [
-                      {
-                          name: 'First',
-                          price: 0.50,
-                          type: 'Bond'
-                      },
+function masker(input){
+    let chars = input.split("");
+    let stars = [];
 
-                      {
-                          name: 'Second',
-                          price: 1.75,
-                          type: 'ETF'
-                      },
+    chars.forEach(function(elem){
+        stars.push('*');
+    })
+    let masked = stars.join("");
 
-                      {
-                          name: 'Third',
-                          price: 1.50,
-                          type: 'Stock'
-                      }
-                    ];
- return investments.filter(object => object.type == 'Stock');
+    console.log(masked);
 }
